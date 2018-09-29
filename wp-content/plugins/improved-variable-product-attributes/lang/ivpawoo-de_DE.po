@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Improved Variable Product Attributes for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/improved-variable-"
+"product-attributes\n"
+"POT-Creation-Date: 2017-09-21 19:25:12+00:00\n"
+"PO-Revision-Date: 2017-06-20 17:54+0200\n"
+"Last-Translator: Nenad Mihajlovic <dzeriho@gmail.com>\n"
+"Language-Team: Mihajlovicnenad.com <dzeriho@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: includes/ivpa-frontend.php:365 includes/ivpa-frontend.php:995
+msgid "Select"
+msgstr "Wählen"
+
+#: includes/ivpa-frontend.php:366
+msgid "Add to cart"
+msgstr ""
+
+#: includes/ivpa-frontend.php:367
+msgid "Select options"
+msgstr ""
+
+#: includes/ivpa-frontend.php:373
+msgid "View Cart"
+msgstr ""
+
+#: includes/ivpa-frontend.php:1302
+msgid "Clear selection"
+msgstr "Klar-Auswahl"
+
+#: includes/ivpa-frontend.php:1309
+msgid "Qty:"
+msgstr ""
+
+#: includes/ivpa-settings.php:37
+msgid "Improved Variable Product Attributes"
+msgstr "Verbesserte Variable Produkteigenschaften"
+
+#: includes/ivpa-settings.php:56
+msgid "Option Name"
+msgstr ""
+
+#: includes/ivpa-settings.php:163
+msgid "Attribute Customization Manager"
+msgstr "Attribut-Anpassungs-managerin"
+
+#: includes/ivpa-settings.php:164
+msgid ""
+"Use the manager to customize your attributes! Click the Add Attribute "
+"Customization button to start customizing!"
+msgstr ""
+"Verwenden Sie den Manager, um anzupassen Ihre Attribute !Klicken Sie auf das "
+"hinzufügen Attribut  Anpassung Schaltfläche zu starten Anpassen!"
+
+#: includes/ivpa-settings.php:166
+msgid "Add Attribute Customization"
+msgstr "Hinzufügen von Attribut-Anpassung"
+
+#: includes/ivpa-settings.php:167
+#, fuzzy
+msgid "Add Custom Option"
+msgstr "Hinzufügen von Attribut-Anpassung"
+
+#: includes/ivpa-settings.php:168
+msgid "Save changes"
+msgstr ""
+
+#: includes/ivpa-settings.php:300 includes/ivpa-settings.php:960
+msgid "Custom Option Name"
+msgstr ""
+
+#: includes/ivpa-settings.php:301 includes/ivpa-settings.php:961
+#, fuzzy
+msgid "Custom Option Description"
+msgstr "Hinzufügen Attributbeschreibung "
+
+#: includes/ivpa-settings.php:302 includes/ivpa-settings.php:962
+msgid "Appearance"
+msgstr ""
+
+#: includes/ivpa-settings.php:306 includes/ivpa-settings.php:966
+msgid "None"
+msgstr ""
+
+#: includes/ivpa-settings.php:307 includes/ivpa-settings.php:359
+#: includes/ivpa-settings.php:967 includes/ivpa-settings.php:1008
+msgid "Plain Text"
+msgstr "Nur-Text"
+
+#: includes/ivpa-settings.php:308 includes/ivpa-settings.php:360
+#: includes/ivpa-settings.php:504 includes/ivpa-settings.php:968
+#: includes/ivpa-settings.php:1009 includes/ivpa-settings.php:1227
+msgid "Color"
+msgstr "Farbe"
+
+#: includes/ivpa-settings.php:309 includes/ivpa-settings.php:361
+#: includes/ivpa-settings.php:969 includes/ivpa-settings.php:1010
+msgid "Thumbnail"
+msgstr "Miniaturansicht"
+
+#: includes/ivpa-settings.php:310 includes/ivpa-settings.php:362
+#: includes/ivpa-settings.php:970 includes/ivpa-settings.php:1011
+msgid "Select Box"
+msgstr "Auswahlfeld "
+
+#: includes/ivpa-settings.php:311 includes/ivpa-settings.php:363
+#: includes/ivpa-settings.php:560 includes/ivpa-settings.php:971
+#: includes/ivpa-settings.php:1012 includes/ivpa-settings.php:1285
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/ivpa-settings.php:312 includes/ivpa-settings.php:972
+msgid "Input Field"
+msgstr ""
+
+#: includes/ivpa-settings.php:313 includes/ivpa-settings.php:973
+msgid "Checkbox"
+msgstr ""
+
+#: includes/ivpa-settings.php:314 includes/ivpa-settings.php:974
+msgid "Textarea"
+msgstr ""
+
+#: includes/ivpa-settings.php:315 includes/ivpa-settings.php:975
+#, fuzzy
+msgid "System Select"
+msgstr "Wählen"
+
+#: includes/ivpa-settings.php:318 includes/ivpa-settings.php:978
+#: includes/ivpa-settings.php:1084
+msgid "Add Price"
+msgstr ""
+
+#: includes/ivpa-settings.php:319 includes/ivpa-settings.php:979
+msgid "Add-on price if option is used by customer"
+msgstr ""
+
+#: includes/ivpa-settings.php:322 includes/ivpa-settings.php:982
+msgid "Limit to Product Type"
+msgstr ""
+
+#: includes/ivpa-settings.php:323 includes/ivpa-settings.php:983
+msgid "Enter product types separated by |. Sample:"
+msgstr ""
+
+#: includes/ivpa-settings.php:326 includes/ivpa-settings.php:986
+msgid "Limit to Product Category"
+msgstr ""
+
+#: includes/ivpa-settings.php:327 includes/ivpa-settings.php:987
+msgid "Enter product category IDs separated by |. Sample:"
+msgstr ""
+
+#: includes/ivpa-settings.php:330 includes/ivpa-settings.php:990
+msgid "Limit to Products"
+msgstr ""
+
+#: includes/ivpa-settings.php:331 includes/ivpa-settings.php:991
+msgid "Enter product IDs separated by |. Sample:"
+msgstr ""
+
+#: includes/ivpa-settings.php:336 includes/ivpa-settings.php:994
+msgid "Enable Multi Select"
+msgstr ""
+
+#: includes/ivpa-settings.php:353 includes/ivpa-settings.php:1002
+msgid "Override Attribute Name"
+msgstr "Überschreiben Attribut Name"
+
+#: includes/ivpa-settings.php:354 includes/ivpa-settings.php:1003
+msgid "Add Attribute Description"
+msgstr "Hinzufügen Attributbeschreibung "
+
+#: includes/ivpa-settings.php:355 includes/ivpa-settings.php:1004
+msgid "Select Attribute Style"
+msgstr "Wählen-Attribut Stil"
+
+#: includes/ivpa-settings.php:366 includes/ivpa-settings.php:368
+#: includes/ivpa-settings.php:1017 includes/ivpa-settings.php:1019
+msgid "Select Attribute"
+msgstr "Wählen Sie Attribut"
+
+#: includes/ivpa-settings.php:381 includes/ivpa-settings.php:1032
+msgid ""
+"Enable attribute selection for all product types (Works with Support "
+"Attribute Selection on All Product Types Option)"
+msgstr ""
+
+#: includes/ivpa-settings.php:406 includes/ivpa-settings.php:1043
+msgid ""
+"Show on Shop/Archives (This only works if the Shop/Archive mode is set to "
+"Show Only)"
+msgstr ""
+"Anzeigen Auf Shop/Archive (Dies funktioniert nur, wenn der Shop/Archiv-Modus "
+"nur ist anzeigen festgelegt)"
+
+#: includes/ivpa-settings.php:420 includes/ivpa-settings.php:1103
+msgid "Add New Term"
+msgstr ""
+
+#: includes/ivpa-settings.php:434 includes/ivpa-settings.php:1154
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/ivpa-settings.php:438 includes/ivpa-settings.php:1158
+msgid "Border"
+msgstr "Grenze"
+
+#: includes/ivpa-settings.php:439 includes/ivpa-settings.php:1159
+msgid "Background"
+msgstr "Hintergrund"
+
+#: includes/ivpa-settings.php:440 includes/ivpa-settings.php:1160
+msgid "Round"
+msgstr "Runde"
+
+#: includes/ivpa-settings.php:452 includes/ivpa-settings.php:1174
+msgid "Normal"
+msgstr "Normaler"
+
+#: includes/ivpa-settings.php:455 includes/ivpa-settings.php:1177
+msgid "Active"
+msgstr "Aktive"
+
+#: includes/ivpa-settings.php:458 includes/ivpa-settings.php:1180
+msgid "Disabled"
+msgstr "Behinderte"
+
+#: includes/ivpa-settings.php:461 includes/ivpa-settings.php:1183
+msgid "Out of stock"
+msgstr "Nicht auf Lager"
+
+#: includes/ivpa-settings.php:477 includes/ivpa-settings.php:507
+#: includes/ivpa-settings.php:540 includes/ivpa-settings.php:563
+#: includes/ivpa-settings.php:1199 includes/ivpa-settings.php:1230
+#: includes/ivpa-settings.php:1264 includes/ivpa-settings.php:1288
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: includes/ivpa-settings.php:489 includes/ivpa-settings.php:519
+#: includes/ivpa-settings.php:1212 includes/ivpa-settings.php:1243
+msgid "Size"
+msgstr ""
+
+#: includes/ivpa-settings.php:534 includes/ivpa-settings.php:1258
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: includes/ivpa-settings.php:537 includes/ivpa-settings.php:1261
+msgid "Add/Upload image"
+msgstr "Hinzufügen/Hochladen Bild"
+
+#: includes/ivpa-settings.php:537 includes/ivpa-settings.php:1261
+msgid "Image Gallery"
+msgstr "Bild Galerie"
+
+#: includes/ivpa-settings.php:574 includes/ivpa-settings.php:1299
+msgid "This style has no extra settings!"
+msgstr "Dieser Stil hat keine zusätzlichen Einstellungen!"
+
+#: includes/ivpa-settings.php:656
+msgid "Single Product Page Settings"
+msgstr "Einziges Produkt Seite Einstellungen"
+
+#: includes/ivpa-settings.php:658
+msgid "General plugin settings when used in Single Product pages."
+msgstr ""
+"General Plugin-Einstellungen, verwendet wenn im einzelnen Produktseiten."
+
+#: includes/ivpa-settings.php:661
+msgid "Enable/Disable Attributes In Single Product Pages"
+msgstr "Aktivieren/Attribute Deaktivieren Sie im einzelnen Seiten"
+
+#: includes/ivpa-settings.php:663
+msgid ""
+"Check this option to enable attribute selection in single product pages."
+msgstr ""
+"Aktivieren Sie diese option zu aktivieren Attribut-Auswahl im einzelnen "
+"Produktseiten. "
+
+#: includes/ivpa-settings.php:668
+msgid "Hide Default Select Boxes"
+msgstr "Verbergen Standard-wählen Boxen"
+
+#: includes/ivpa-settings.php:670
+msgid "Check this option to hide default select boxes in single product pages."
+msgstr ""
+"Aktivieren Sie diese option verstecken Standard-wählen Boxen im einzelnen "
+"Produktseiten."
+
+#: includes/ivpa-settings.php:675
+msgid "Hide Add to Cart Before Selection"
+msgstr ""
+
+#: includes/ivpa-settings.php:677
+msgid ""
+"Check this option to hide the Add to cart button in single product pages "
+"before the selection is made."
+msgstr ""
+
+#: includes/ivpa-settings.php:682
+msgid "Select Descriptions Position"
+msgstr ""
+
+#: includes/ivpa-settings.php:684
+msgid "Select where to show descriptions."
+msgstr ""
+
+#: includes/ivpa-settings.php:687
+msgid "After Title"
+msgstr ""
+
+#: includes/ivpa-settings.php:688
+msgid "After Attributes"
+msgstr ""
+
+#: includes/ivpa-settings.php:694
+msgid "Use IVPA Image Switcher"
+msgstr ""
+
+#: includes/ivpa-settings.php:696
+msgid ""
+"Check this option to enable IVPA image switcher in single product pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:701
+msgid "Enable/Disable AJAX Add To Cart"
+msgstr ""
+
+#: includes/ivpa-settings.php:703
+msgid "Check this option to enable AJAX add to cart in single product pages."
+msgstr ""
+"Aktivieren Sie diese Option aktivieren AJAX Warenkorb legen Variationen im "
+"einzelnen Produktseiten."
+
+#: includes/ivpa-settings.php:717
+msgid "Override Default Single Product Action"
+msgstr ""
+
+#: includes/ivpa-settings.php:719
+msgid ""
+"Change default init action in single product pages. Use actions initiated in "
+"your content-single-product.php file. Please enter action in the following "
+"format action_name:priority."
+msgstr ""
+"Ändern Sie Standard Init-Aktion im einzelnen Produktseiten.Verwenden "
+"Aktionen initiierte Sie in Ihrer Inhalt-Einzel-product.php datei.Bitte geben "
+"Sie die Aktion in dem folgenden Format action_name:priority"
+
+#: includes/ivpa-settings.php:728
+msgid "Shop/Product Archive Settings"
+msgstr "Shop/Produkt Archiv Einstellungen"
+
+#: includes/ivpa-settings.php:730
+msgid "General plugin settings when used in Shop and Product Archive pages."
+msgstr ""
+"Allgemeine Plugin-Einstellungen, wenn Sie verwendet im Shop und Produkt-"
+"Archiv-Seiten."
+
+#: includes/ivpa-settings.php:733
+msgid "Enable/Disable Attributes In Archives"
+msgstr "Aktivieren/Deaktivieren Attribute im Archivwesen"
+
+#: includes/ivpa-settings.php:735
+msgid ""
+"Check this option to enable attribute selection in shop and product archive "
+"pages."
+msgstr ""
+"Aktivieren Sie diese option zu aktivieren Attribut-Auswahl im Shop und "
+"Produkt-Archiv-Seiten."
+
+#: includes/ivpa-settings.php:740
+msgid "Show Quantities In Archives"
+msgstr ""
+
+#: includes/ivpa-settings.php:742
+msgid ""
+"Check this option to enable product quantity in shop and product archive "
+"pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:747
+msgid "Select Archive Display Mode"
+msgstr "Auswählen Archiv-Anzeigemodus"
+
+#: includes/ivpa-settings.php:749
+msgid ""
+"Select style to use with the attributes in shop and product archive pages."
+msgstr ""
+"Wählen Stil Sie verwenden mit den Attributen im Shop und Archiv-Seiten."
+
+#: includes/ivpa-settings.php:752
+msgid "Show Only"
+msgstr "Nur anzeigen"
+
+#: includes/ivpa-settings.php:753
+msgid "Enable Selection and Add to Cart"
+msgstr "Aktivieren Auswahl und in den Warenkorb"
+
+#: includes/ivpa-settings.php:759
+msgid "Attribute Alignment in Archives"
+msgstr ""
+
+#: includes/ivpa-settings.php:761
+msgid "Select attribute selectors alignment in shop and product archive pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:764
+msgid "Left"
+msgstr ""
+
+#: includes/ivpa-settings.php:765
+msgid "Right"
+msgstr ""
+
+#: includes/ivpa-settings.php:766
+msgid "Center"
+msgstr ""
+
+#: includes/ivpa-settings.php:781
+msgid "Override Default Product Archive Action"
+msgstr ""
+
+#: includes/ivpa-settings.php:783
+msgid ""
+"Change default init action in product archives. Use actions initiated in "
+"your content-product.php file. Please enter action in the following format "
+"action_name:priority."
+msgstr ""
+"Ändern der Standardaktion Init auf Produkt-Archiv. Verwenden Aktionen "
+"initiierte Sie in Ihrer Datei Inhalt-product.php .Bitte geben Sie die Aktion "
+"in dem folgenden Format action_name:priority"
+
+#: includes/ivpa-settings.php:792
+msgid "jQuery Selector Settings"
+msgstr "jQuery Selektor Einstellungen"
+
+#: includes/ivpa-settings.php:794
+msgid ""
+"Sometimes your theme will not have the default classes for these elements. "
+"If this is the case use these options to override default jQuery selectors."
+msgstr ""
+
+#: includes/ivpa-settings.php:797
+msgid "Single Product Image Selector"
+msgstr ""
+
+#: includes/ivpa-settings.php:799
+msgid "Change default image wrapper selector in single product pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:805
+msgid "Shop/Archive Product Selector"
+msgstr ""
+
+#: includes/ivpa-settings.php:807
+msgid ""
+"Change default product selector in shop and product archives. Use the "
+"product class from your product archive pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:813
+msgid "Shop/Archive Add To Cart Selector"
+msgstr ""
+
+#: includes/ivpa-settings.php:815
+msgid ""
+"Change default add to cart selector in shop and product archives. Use the "
+"product class from your product archive pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:821
+msgid "Shop/Archive Price Selector"
+msgstr ""
+
+#: includes/ivpa-settings.php:823
+msgid ""
+"Change default price selector in shop and product archives. Use the price "
+"class from your product archive pages."
+msgstr ""
+
+#: includes/ivpa-settings.php:832
+msgid "Out Of Stock Display Settings"
+msgstr "Ausverkauft Anzeigeeinstellungen"
+
+#: includes/ivpa-settings.php:834
+msgid "Setup your out of stock selectors appearance."
+msgstr "Richten Sie Ihre nicht lieferbar Selektoren aussehen."
+
+#: includes/ivpa-settings.php:837
+msgid "Select Out Of Stock Mode"
+msgstr "Wählen ausverkauft Modus"
+
+#: includes/ivpa-settings.php:839
+msgid "Select how the Out of Stock selectors will appear."
+msgstr "Wählen Sie, wie die ausverkauft-Selektoren erscheint."
+
+#: includes/ivpa-settings.php:842
+msgid "Shown but not clickable"
+msgstr "Gezeigt, aber nicht anklickbar"
+
+#: includes/ivpa-settings.php:843
+msgid "Shown and clickable"
+msgstr "Dargestellt und klickbare"
+
+#: includes/ivpa-settings.php:844
+msgid "Hidden from pages"
+msgstr "Versteckt Von Seiten"
+
+#: includes/ivpa-settings.php:853
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/ivpa-settings.php:855
+msgid "Miscellaneous advanced settings."
+msgstr ""
+
+#: includes/ivpa-settings.php:858
+msgid "Image Changing Attributes"
+msgstr ""
+
+#: includes/ivpa-settings.php:860
+msgid "Select attributes that will change the product image."
+msgstr ""
+
+#: includes/ivpa-settings.php:867
+#, fuzzy
+msgid "Support Attribute Selection on All Product Types"
+msgstr ""
+"Aktivieren Sie diese option zu aktivieren Attribut-Auswahl im einzelnen "
+"Produktseiten. "
+
+#: includes/ivpa-settings.php:869
+#, fuzzy
+msgid ""
+"Set this option to enable selection of attributes for products that are not "
+"variable."
+msgstr ""
+"Aktivieren Sie diese option zu aktivieren Attribut-Auswahl im Shop und "
+"Produkt-Archiv-Seiten."
+
+#: includes/ivpa-settings.php:872
+msgid "No Support"
+msgstr ""
+
+#: includes/ivpa-settings.php:873
+#, fuzzy
+msgid "Registered Attributes"
+msgstr "Registrieren und Automatische Updates"
+
+#: includes/ivpa-settings.php:874
+#, fuzzy
+msgid "Registered Attributes and Custom Attributes"
+msgstr "registrieren Verbesserte Variable Produkt eigenschaften"
+
+#: includes/ivpa-settings.php:880
+msgid "Step Attribute Selection"
+msgstr ""
+
+#: includes/ivpa-settings.php:882
+msgid "Check this option to enable stepped attribute selection."
+msgstr ""
+
+#: includes/ivpa-settings.php:887
+msgid "Disable Attribute Deselection"
+msgstr ""
+
+#: includes/ivpa-settings.php:889
+msgid "Check this option to disable attribute deselection in IVPA selectors."
+msgstr ""
+
+#: includes/ivpa-settings.php:894
+msgid "Backorder Notification Support"
+msgstr ""
+
+#: includes/ivpa-settings.php:896
+msgid "Check this option to enable IVPA backorder notification support."
+msgstr ""
+
+#: includes/ivpa-settings.php:901
+msgid "Plugin Scripts"
+msgstr ""
+
+#: includes/ivpa-settings.php:903
+msgid ""
+"Check this option to enable plugin scripts in all pages. This option fixes "
+"issues in Quick Views."
+msgstr ""
+
+#: includes/ivpa-settings.php:908
+msgid "Use Caching"
+msgstr ""
+
+#: includes/ivpa-settings.php:910
+msgid "Check this option to use IVPA product cache for better performance."
+msgstr ""
+
+#: includes/ivpa-settings.php:918
+msgid "Register and Automatic Updates"
+msgstr "Registrieren und Automatische Updates"
+
+#: includes/ivpa-settings.php:920
+msgid ""
+"Register your plugin with the purchase code you have got from Codecanyon."
+"net! Get automatic updates!"
+msgstr ""
+"Registrieren Sie Ihr Plugin mit der Kauf-Code, den Sie von Codecanyon.net "
+"bekommen haben! Erhalten Sie automatische Updates!"
+
+#: includes/ivpa-settings.php:923
+msgid "Register Improved Variable Product Attributes"
+msgstr "registrieren Verbesserte Variable Produkt eigenschaften"
+
+#: includes/ivpa-settings.php:925
+msgid ""
+"Enter your purchase code to get instant updated even before the codecanyon."
+"net releases!"
+msgstr ""
+"Geben Sie Ihren Code kaufen, erhalten sofort aktualisiert, noch bevor die "
+"codecanyon.net Freisetzung!"
+
+#: includes/ivpa-settings.php:1081
+msgid "Name"
+msgstr ""
+
+#: includes/update/github-checker.php:120
+msgid "There is no changelog available."
+msgstr "Es gibt keine Changelog vorhanden."
+
+#: includes/update/plugin-update-checker.php:637
+msgid "Check for updates"
+msgstr "Nach Updates suchen"
+
+#: includes/update/plugin-update-checker.php:681
+msgid "This plugin is up to date."
+msgstr "Dieses Plugin ist auf dem neuesten Stand."
+
+#: includes/update/plugin-update-checker.php:683
+msgid "A new version of this plugin is available."
+msgstr "Eine neue Version des Plugins ist verfügbar."
+
+#: includes/update/plugin-update-checker.php:685
+msgid "Unknown update checker status \"%s\""
+msgstr "Unbekannt aktualisieren Kontrolleur-Status \"% s\""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "Improved Variable Product Attributes for WooCommerce"
+msgstr "Verbesserte Variable Produkteigenschaften"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.mihajlovicnenad.com/improved-variable-product-attributes"
+msgstr ""
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Improved Variable Product Attributes for WooCommerce! - mihajlovicnenad.com"
+msgstr "Verbesserte Variable Produkteigenschaften"
+
+#. Author of the plugin/theme
+msgid "Mihajlovic Nenad"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.mihajlovicnenad.com"
+msgstr ""
+
+#~ msgid "Enable/Disable AJAX Variation Add To Cart"
+#~ msgstr "Aktivieren / Deaktivieren AJAX Variation in den Warenkorb"
+
+#~ msgid ""
+#~ "If the default setting in single products returns a false image upon "
+#~ "selecting or deselecting please use this setting to override image size. "
+#~ "Default: full (works almost anywhere), but usually: shop_single or set "
+#~ "your own image size."
+#~ msgstr ""
+#~ "Wenn die Standardeinstellung im Produktseiten gibt ein falsches Bild "
+#~ "zurück auf auswählen oder abwählen Bitte benutzen Sie diese  Einstellung "
+#~ "AUßER KRAFT SETZEN , Bildgröße.Standard: voll (fast überall "
+#~ "funktioniert), aber in der Regel: Shop_catalog, oder legen Sie eigene "
+#~ "Bildgröße."
+
+#~ msgid "Select Archive Image Size"
+#~ msgstr "Wählen Archiv-Bildgröße "
+
+#~ msgid ""
+#~ "If the default setting in archives returns a false image upon selecting "
+#~ "or deselecting please use this setting to override image size. Default: "
+#~ "full (works almost anywhere), but usually: shop_catalog, or set your own "
+#~ "image size."
+#~ msgstr ""
+#~ "Wenn die Standardeinstellung in Archiven gibt ein falsches Bild zurück "
+#~ "auf auswählen oder abwählen Bitte benutzen Sie diese  Einstellung AUßER "
+#~ "KRAFT SETZEN , Bildgröße.Standard: voll (fast überall funktioniert), aber "
+#~ "in der Regel: shop_catalog, oder legen Sie eigene Bildgröße."

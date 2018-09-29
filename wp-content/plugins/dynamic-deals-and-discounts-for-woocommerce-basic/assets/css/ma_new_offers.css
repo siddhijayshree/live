@@ -1,0 +1,11 @@
+label > input{ /* HIDE RADIO */
+  visibility: hidden !important; /* Makes input not-clickable */
+  position: absolute !important; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer !important;
+  border:2px solid transparent !important;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00 !important;
+}

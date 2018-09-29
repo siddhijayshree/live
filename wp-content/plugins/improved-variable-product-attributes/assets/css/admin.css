@@ -1,0 +1,275 @@
+/*------------------------------------------------------------------
+[Improved Variable Product Attributes for WooCommerce ADMIN]
+
+[Table of contents]
+
+0.Includes
+1.General
+2.Font
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[General]
+-------------------------------------------------------------------*/
+
+#ivpa_manager {
+	
+}
+
+	#ivpa_manager .ivpa_clear {
+		display:block;
+		width:100%;
+		clear:both;
+	}
+
+	#ivpa_manager .ivpa_fields {
+		margin-bottom:20px;
+	}
+
+
+	#ivpa_manager .ivpa_customizations {
+		margin-bottom:40px;
+	}
+
+	#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_holder {
+		max-height:0;
+		opacity:0;
+		overflow:hidden;
+		transition:all 300ms;
+	}
+		#ivpa_manager .ivpa_customizations .ivpa_holder > label {
+			display:block;
+			margin-top:10px;
+		}
+			#ivpa_manager .ivpa_customizations .ivpa_holder > label:first-child {
+				margin-top:20px;
+			}
+			#ivpa_manager .ivpa_customizations .ivpa_holder > label span {
+				display:inline-block;
+				width:200px;
+				line-height:28px;
+				vertical-align:top;
+			}
+			#ivpa_manager .ivpa_customizations .ivpa_holder > label span.ivpa_checkbox_desc {
+				width:auto;
+				line-height:inherit;
+				vertical-align:middle;
+			}
+		#ivpa_manager .ivpa_customizations .ivpa_holder > label  input[type="text"] {
+			width:300px;
+			margin-right: 10px;
+		}
+		#ivpa_manager .ivpa_customizations .ivpa_holder > label .wp-picker-input-wrap input {
+			width:auto;
+		}
+
+		#ivpa_manager .ivpa_customizations .ivpa_holder > label select {
+			width:300px;
+		}
+		#ivpa_manager .ivpa_customizations .ivpa_holder > label textarea {
+			width:300px;
+		}
+
+		#ivpa_manager .ivpa_customizations .ivpa_element {
+			display:block;
+			max-width:880px;
+			border:1px solid #ccc;
+			background-color:#fff;
+			padding:12px 24px 12px;
+			margin-top:10px;
+			line-height:24px;
+			border-radius:3px;
+		}
+			#ivpa_manager .ivpa_customizations .ivpa_element:first-child {
+				margin-top:0px;
+			}
+
+			#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_manipulate {
+				line-height:30px;
+			}
+				#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_manipulate a {
+					font-size:24px;
+					text-decoration:none;
+					float:right;
+					margin-left:10px;
+				}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_manipulate a.ivpa_reorder {
+						cursor:move;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_manipulate a.ivpa_attribute_title {
+						float:left;
+						font-size:18px;
+						line-height:36px;
+						margin-left:0;
+					}
+
+
+			#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms:before,
+			#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms:after {
+				content:'';
+				clear:both;
+				display:table;
+			}
+			#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms {
+				margin:0 -0.5% 10px;
+			}
+
+				#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option {
+					display:inline-block;
+					vertical-align:top;
+					line-height:28px;
+					margin-right:6px;
+					margin-top:1px;
+				}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option {
+						vertical-align:top;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option em {
+						font-size:12px;
+						display:block;
+						font-weight:500;
+					}
+
+				#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term {
+					padding:6px 12px 12px;
+					border:1px solid #ccc;
+					border-radius:3px;
+					background-color:#f4f4f4;
+					box-sizing:border-box;
+					margin:10px 0.5% 0;
+					min-width:200px;
+					width:32.3%;
+					float:left;
+					transition:box-shadow 300ms;
+					box-shadow:0 0 0 0 rgba(0,0,0,0);
+				}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term:hover {
+						position:relative;
+						box-shadow:0 0 6px 2px rgba(236, 167, 111, 0.55);
+						z-index:1;
+					}
+						#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term .ivpa_option {
+							width:100%;
+							display:block;
+						}
+							#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term .ivpa_option input.ivpa_color.wp-color-picker {
+								width:100px;
+								float:right;
+							}
+							#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term .ivpa_option input {
+								max-width:200px;
+								width:100%;
+							}
+							#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term textarea {
+								display:block;
+								max-width:300px;
+								width:100%;
+								height:100px;
+							}
+
+				#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term_style {
+					margin:20px 0.5%;
+					font-size:10px;
+					text-transform:uppercase;
+				}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term_style .ivpa_option > input,
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term_style .ivpa_option > select {
+						display:block;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_term_style .ivpa_option .wp-picker-container {
+						display:block;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option .wp-picker-holder {
+						position:absolute;
+						z-index:1;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option .wp-color-result {
+						margin-bottom:1px;
+						height:28px;
+					}
+						#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option .wp-color-result:after {
+							line-height:28px;
+						}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option .wp-picker-default {
+						display:none;
+					}
+					#ivpa_manager .ivpa_customizations .ivpa_element .ivpa_terms .ivpa_option .wp-color-picker {
+						line-height:22px;
+					}
+
+#ivpa_manager .ivpa_customizations .ivpa_selectbox {
+	margin-top:10px;
+}
+
+	#ivpa_manager .ivpa_customizations .ivpa_selectbox i {
+		font-size:20px;
+		color:#0073aa;
+	}
+
+/*------------------------------------------------------------------
+[2.Font]
+-------------------------------------------------------------------*/
+
+@charset "UTF-8";
+
+@font-face {
+	font-family:"ivpa";
+	src:url("fonts/ivpa.eot");
+	src:url("fonts/ivpa.svg#ivpa") format("svg"),
+		url("fonts/ivpa.eot?#iefix") format("embedded-opentype"),
+		url("fonts/ivpa.woff") format("woff"),
+		url("fonts/ivpa.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+[class^="ivpa-"]:before,
+[class*=" ivpa-"]:before {
+	font-family:"ivpa" !important;
+	font-style:normal !important;
+	font-weight:normal !important;
+	font-variant:normal !important;
+	text-transform:none !important;
+	speak:none;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	vertical-align:middle;
+}
+
+.ivpa-reorder:before {
+	content:"\f001";
+}
+.ivpa-remove:before {
+	content:"\f002";
+}
+.ivpa-slidedown:before {
+	content:"\f003";
+}
+.ivpa-slideup:before {
+	content:"\f004";
+}
+.ivpa-select:before {
+	content:"\f005";
+}
+.ivpa-warning:before {
+	content:"\f006";
+}
+.ivpa-term-ctrl {
+	display: block;
+}
+.ivpa-term-ctrl .ivpa-term-move,
+.ivpa-term-ctrl .ivpa-term-remove {
+	float: right;
+	font-size: 20px;
+	margin-left: 4px;
+}
+.ivpa-term-ctrl .ivpa-term-remove {
+	cursor:pointer;
+}
+.ivpa-term-ctrl .ivpa-term-move {
+	cursor: move;
+}
+.ivpa-terms-ui-wrap {
+	display: block;
+	margin: 25px 3px 5px;
+}

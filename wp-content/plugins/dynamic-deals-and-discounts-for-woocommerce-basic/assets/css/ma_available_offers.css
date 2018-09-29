@@ -1,0 +1,24 @@
+.metabox-holder
+{
+    width:100%;
+}
+.column-id
+{
+    width: 9% !important;
+}
+.column-status
+{
+    width: 10% !important;
+}
+.column-by
+{
+    width: 15% !important;
+}
+.column-date
+{
+    width: 20% !important;
+}
+.column-prop
+{
+    width: 20% !important;
+}
